@@ -13,7 +13,7 @@
         $primeira="Primeira liña de texto";
         $segunda="Segunda liña de texto";
         $terceira="Terceira liña de texto";
-        $resultado=$primeira."<br/>".$segunda."<br/>".$terceira;
+        $resultado="{$primeira}<br/>{$segunda}<br/>{$terceira}";
         echo $resultado;
         echo "<br/> O número de carácteres da cadea resultante é: ".strlen($resultado);
     ?>
